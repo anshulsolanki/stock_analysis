@@ -98,3 +98,10 @@ def do_index_comparison():
   slice_and_plot(data, "3mo")
   slice_and_plot(data, "6mo")
   slice_and_plot(data, "1y")
+
+
+def main():
+    do_index_comparison()
+
+if __name__ == "__main__":
+    main()
